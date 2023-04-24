@@ -11,6 +11,6 @@ import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
 public class ReactCheckboxPlugin implements ReactPlugin {
     public ReactPackage hook(@NonNull Application application,
                       @Nullable ReactPluginConfig config) {
-        return new ReactCheckBoxPackage()
+        return new ReactCheckBoxPackage();
     }
 }
