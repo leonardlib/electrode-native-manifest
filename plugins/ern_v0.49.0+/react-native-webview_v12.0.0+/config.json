@@ -3,6 +3,7 @@
     "root": "",
     "moduleName": "android",
     "dependencies": [
+      "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0",
       "androidx.webkit:webkit:1.6.0"
     ]
   }
