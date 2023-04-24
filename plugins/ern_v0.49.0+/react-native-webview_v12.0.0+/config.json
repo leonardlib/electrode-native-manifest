@@ -3,7 +3,7 @@
     "root": "",
     "moduleName": "android",
     "dependencies": [
-      "implementation project(':react-native-webview')"
+      "androidx.webkit:webkit:1.6.0"
     ]
   }
 }
