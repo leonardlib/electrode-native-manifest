@@ -3,8 +3,8 @@
     "root": "",
     "moduleName": "android",
     "dependencies": [
-      "androidx.annotation:annotation:1.6.0",
-      "androidx.webkit:webkit:1.6.0"
+      "androidx.annotation:annotation:1.4.0",
+      "androidx.webkit:webkit:1.4.0"
     ]
   }
 }
