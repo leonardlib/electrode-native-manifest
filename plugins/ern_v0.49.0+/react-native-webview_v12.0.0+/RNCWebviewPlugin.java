@@ -6,11 +6,11 @@ import android.support.annotation.Nullable;
 
 import com.facebook.react.ReactInstanceManagerBuilder;
 import com.facebook.react.ReactPackage;
-import com.reactnativecommunity.webview.RNCWebViewManager;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 
 public class RNCWebviewPlugin implements ReactPlugin {
     public ReactPackage hook(@NonNull Application application,
                       @Nullable ReactPluginConfig config) {
-        return new RNCWebViewManager();
+        return new RNCWebViewPackage();
     }
 }
