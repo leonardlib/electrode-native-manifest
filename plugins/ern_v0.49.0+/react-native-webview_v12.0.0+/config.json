@@ -1,6 +1,9 @@
 {
   "android": {
     "root": "",
-    "moduleName": "android"
+    "moduleName": "android",
+    "dependencies": [
+      "androidx.webkit:webkit:1.6.0"
+    ]
   }
 }
