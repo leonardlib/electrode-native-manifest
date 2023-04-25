@@ -5,8 +5,8 @@
     "dependencies": ["androidx.webkit:webkit:1.4.0"],
     "copy": [
       {
-        "source": "android/src/oldarch/com/reactnativecommunity/webview/**",
-        "dest": "{{{projectName}}}/lib/src/main/java/com/reactnativecommunity/webview"
+        "source": "android/src/oldarch/com/reactnativecommunity/webview/*",
+        "dest": "lib/src/main/java/com/reactnativecommunity/webview"
       }
     ]
   }
