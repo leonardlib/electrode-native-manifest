@@ -1,7 +1,6 @@
 package com.walmartlabs.ern.container.plugins;
 
 import android.app.Application;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
