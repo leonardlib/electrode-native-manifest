@@ -1,9 +1,0 @@
-{
-  "android": {
-    "root": "",
-    "moduleName": "android",
-    "dependencies": [
-      "androidx.webkit:webkit:1.4.0"
-    ]
-  }
-}
