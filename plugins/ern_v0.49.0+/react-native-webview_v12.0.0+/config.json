@@ -8,6 +8,13 @@
         "source": "android/src/oldarch/com/reactnativecommunity/webview/*",
         "dest": "lib/src/main/java/com/reactnativecommunity/webview"
       }
+    ],
+    "replaceInFile": [
+      {
+        "path": "lib/src/main/java/com/reactnativecommunity/webview/RNCWebViewPackage.java",
+        "string": "BuildConfig.IS_NEW_ARCHITECTURE_ENABLED",
+        "replaceWith": "false"
+      }
     ]
   }
 }
